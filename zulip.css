@@ -88,3 +88,31 @@ li.active-sub-filter {
 #top_navbar {
   max-width: 100% !important;
 }
+
+/* .app-main:after {
+  z-index: -3 !important;
+  filter: hue-rotate(0deg);
+
+  position: fixed;
+  display: block;
+  content: "";
+  left: 0;
+  bottom: 0;
+  margin-left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://i.imgur.com/zhBAjPa.png),
+    url(https://i.imgur.com/sH5Xot3.png);
+  animation: PARTICLES 50s linear infinite;
+  pointer-events: none !important;
+  filter: grayscale(80%);
+}
+
+@keyframes PARTICLES {
+  0% {
+    background-position: -485px 487px, 485px 487px;
+  }
+  100% {
+    background-position: 0 0, 0 0;
+  }
+} */
