@@ -1,0 +1,30 @@
+.selected_message .messagebox-content {
+  box-shadow: none !important;
+}
+
+.app-main {
+  max-width: 100% !important;
+}
+
+#bottom_whitespace {
+  height: 0 !important;
+}
+
+.private_messages_container.zoom-out.hidden-for-spectators,
+#streams_header {
+  background: none !important;
+}
+
+li.active-filter,
+li.active-sub-filter {
+  background-color: rgb(102, 190, 190) !important;
+}
+
+.active-sub-filter.zero-pm-unreads.pm-list-item.bottom_left_row,
+.narrow-filter.active-filter {
+  background-color: rgb(102, 190, 190);
+}
+
+#stream_filters .narrow-filter.active-filter > .bottom_left_row {
+  background-color: rgb(90, 161, 161) !important;
+}
