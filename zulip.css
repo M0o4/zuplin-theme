@@ -7,7 +7,7 @@
 }
 
 #bottom_whitespace {
-  height: 0 !important;
+  height: 83px !important;
 }
 
 .private_messages_container.zoom-out.hidden-for-spectators,
@@ -73,4 +73,18 @@ li.active-sub-filter {
 .rendered_markdown .emoji {
   width: 30px !important;
   height: 30px !important;
+}
+
+.message_row.selectable_row:hover {
+  background-color: #3e5063;
+}
+
+.private-message .date_row,
+.private-message .messagebox {
+  background: none !important;
+}
+
+.app-main,
+#top_navbar {
+  max-width: 100% !important;
 }
